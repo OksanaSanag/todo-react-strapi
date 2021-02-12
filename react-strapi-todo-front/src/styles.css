@@ -1,0 +1,162 @@
+
+:root {
+  --main-color: #df3ff9;
+  --dark-color: #a900c5;
+  --light-color:#ff78ff;
+}
+
+/* *:focus {
+  outline: none;
+  box-shadow: 0 0 3px  2px #ff78ff;
+} */
+
+
+.row { 
+  display: flex;
+  flex-direction: row;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+ }
+ .spaceBetween {
+  justify-content: space-between;
+}
+.align-items-start {
+  align-items: flex-start;
+}
+
+.margin-left-10 {
+  margin-left: 10px;
+}
+.margin-right-10 {
+  margin-right: 10px;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  padding: 4px;
+}
+a:hover {
+  color: var(--light-color);
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  background-color: var(--dark-color);
+  color: white;
+  padding: 0 20px 0 20px;
+  font-size: large;
+}
+.header-leftBlock{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.header-leftBlock div { padding-left: 10px;}
+.header-Icon {
+  width: auto;
+  height: 45px;
+}
+
+
+.mainBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  max-width: 640px;
+  min-width: 304px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+
+.toDoTaskForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.inputForm {
+  width: 100%;
+  height: 100px;
+  border-radius: 5px;
+  border-color: var(--dark-color);
+  padding: 10px;
+  box-sizing: border-box;
+  font-family: inherit;
+}
+.inputForm:hover{
+  border-color: var(--light-color); 
+}
+
+.todoButton { 
+  width: 150px;
+  padding: 7px;
+  margin: 10px;
+  background-color: var(--dark-color);
+  color: white;
+  border-radius: 5px;
+}
+.todoButton:hover {
+  color: var(--light-color);
+  border-color: var(--light-color);
+  outline: none;
+}
+
+
+.taskList {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.task {
+  height: auto;
+  border: 2px dotted var(--dark-color);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 5px 0;
+  box-sizing: border-box;
+}
+
+.add-del {
+  width: 25px;
+  padding: 5px 0 0 5px;
+}
+
+.actions{
+  display: flex;
+  align-self: flex-start;
+  justify-content: flex-end;
+  /* min-width: 126px; */
+  padding: 0 10px 0 10px;
+}
+
+.changeInput {
+  display: flex;
+  color: var(--light-color);
+  border: none;
+}
+
+
+
+
+
+
+
